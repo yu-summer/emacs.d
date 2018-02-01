@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ package-autoremove
+ customize-group
+ package-list-packages-no-fetch
+ package-menu-quick-help
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (package-menu-quick-help . 1)
+ (package-list-packages-no-fetch . 1)
+ (customize-group . 2)
+ (package-autoremove . 4)
+)
